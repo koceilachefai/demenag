@@ -42,7 +42,7 @@ footer h2 {
 }
 
 footer h2:after {
-    border: 1px solid #ff7800;
+    border: 1px solid #be0902;
     width: 60px;
     top: 12px;
     z-index: 1
@@ -84,8 +84,8 @@ footer hr {
     border-top: 1px solid #201e1b
 }
 
-footer #bhinternet a:hover {
-    color: #ff7800
+footer #C.K a:hover {
+    color: #990202
 }
 
 section.slide1 {
@@ -144,7 +144,7 @@ section.one1 {
 section.two1 h3:after,
 section.two1 h3:before {
     content: '';
-    border: 1px solid #ff7800;
+    border: 1px solid #d10606;
     width: 100px;
     top: -5px;
     position: relative;
@@ -350,14 +350,14 @@ ul.details li i {
     -moz-transition: all .5s;
     transition: all .5s;
     letter-spacing: 2px;
-    border: 2px solid #ff7800;
+    border: 2px solid #cc0303;
     position: relative
 }
 
 .button7:hover,
 .prices:hover .price1,
 section.pre-contact {
-    background-color: #ff7800
+    background-color: #d40707
 }
 
 section.pre-contact h3:after,
