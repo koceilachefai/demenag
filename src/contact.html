@@ -1,0 +1,110 @@
+---
+layout: default
+permalink: /contact
+---
+
+<div class="page">
+    {% include navbarOther.html %}
+    <section class="breadcrumbs-custom bg-image context-dark"
+        style="background-image: url(./assets/images/demenagement.jpg);">
+        <div class="container">
+            <h4 class="breadcrumbs-custom-title">Contact</h4>
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="index.html">Accueil</a></li>
+                <li class="active">Contact</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="bg-default section-md">
+        <div class="container">
+            <div class="row row-50 justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    
+                    <form role="form" method="post" action="mailto:marc@bhgroupe.fr">
+                        <div class="form-group has-feedback ">
+                            <label for="form_lastname">NOM</label>
+                            <input type="text" name="lastname" id="form_lastname" value="" class="form-control"
+                                placeholder="Nom">
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="form_firstname">Prénom</label>
+                            <input type="text" name="firstname" id="form_firstname" value="" class="form-control"
+                                placeholder="Prenom">
+                        </div>
+
+                        
+                        <div class="form-group has-feedback ">
+                            <label for="form_email">E-mail</label>
+                            <input type="text" name="email" id="form_email" value="" class="form-control"
+                                placeholder="text@exemple.fr">
+                        </div>
+                        <div class="form-group has-feedback ">
+                            <label for="form_phone">Téléphone</label>
+                            <input type="text" name="phone" id="form_phone" value="" class="form-control"
+                                placeholder="06 00 00 00 00">
+                        </div>
+
+                        <div class="form-group has-feedback ">
+                            <label for="form_subject">Objet</label>
+                            <select name="subject" id="form_subject" class="form-control">
+                                <option>Demande d'information générale</option>
+                                <option>Demande d'information tarifaire</option>
+                                <option>Proposition commerciale</option>
+                                <option>Recrutement</option>
+                                <option>Autre</option>
+                            </select> </div>
+                        <div class="form-group has-feedback ">
+                            <label for="form_message">Message</label> <textarea name="message" id="form_message"
+                                class="form-control" rows="6"></textarea> </div>
+                        <br>
+                        <div class="form-button text-center">
+                   
+                            <button class="button button-primary" type="submit">Envoyer</button>
+                   
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Google Map-->
+    <section class="section">
+        <div class="google-map-container">
+
+            <div class="gmap_canvas"><iframe width="100%" height="700" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=42%20rue%20Paul%20Claudel%2091000%20EVRY&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+            </div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 700px;
+                    width: 100%;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 700px;
+                    width: 100%;
+                }
+            </style>
+
+        </div>
+    </section>
+
+    {% include footer.html %}
+</div>
+  
